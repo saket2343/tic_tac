@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-   <title> Max Temperature </title> 
-   <link rel="stylesheet" href="index.css">
-   <script src="sendbox.js" defer></script>
-   
-</head>
-<body>
-<h1 style="text-align:center;">Temerature of the Day</h1>
-<br><br>
-
-
-<label for="Select" id="kundan">Select the date: </label>
-<input type="date" id="Select" name="Select the date" min="2023-04-10" max="2023-04-15">
-
-<div id="temperatureDisplay"></div>
-
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+        <h1>Tic Tac Toe</h1>
+        <div class="container" >
+        <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+            <div class="winner"></div>
+        </div>
+        <button id="reset-btn">Reset Game</button>
+    </main>
+	<script src="app.js"></script>
+  </body>
 </html>
