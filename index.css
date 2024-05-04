@@ -1,0 +1,15 @@
+body {
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background: skyblue;
+  }
+  
+  .center-align input[type="date"] {
+    margin-top: 50px; /* Adjust margin as needed */
+    
+  }
+  
+  
